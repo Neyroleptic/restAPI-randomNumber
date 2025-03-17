@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./RandomNumberApp.module.css"; // Импортируем стили
+import styles from "./RandomNumberApp.module.css";
 
 export default function RandomNumberApp() {
   const [generated, setGenerated] = useState(null);
